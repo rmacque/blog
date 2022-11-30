@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4":{
+            "Blog\\":"Classes/"
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "vlucas/valitron": "^1.4"
+    }
+}
