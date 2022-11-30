@@ -16,8 +16,8 @@ Les langages/frameworks utilisés seront principalement orienté serveur.
 PHP natif
 **************
 Mon tout premier site, développé en PHP natif. C'est avec lui que j'ai appris le PHP et ce qui va avec.
--Communication avec une base de donnée
--routage(utilisation d'une classe récupérée sur Packagist.org)
+*Communication avec une base de donnée
+*routage(utilisation d'une classe récupérée sur Packagist.org)
 -Système d'authentification
 -Possibilité de création/modification des articles mis en ligne
 -Pagination des différents articles
