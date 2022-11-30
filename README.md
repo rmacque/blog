@@ -10,7 +10,8 @@ Les langages/frameworks utilisés seront principalement orienté serveur.
 
 - Ce readme.md contiendra une liste des fonctionnalités de chaque projet
 - Le nom des différents répertoires sera toujours précédé du nom du langage/framework utilisé.
-- S'il y a des fonctionnalités supplémentaires sur une version, ce sera également spécifiée dans le nom. 
+- S'il y a des fonctionnalités supplémentaires sur une version, ce sera également spécifiée dans le nom.
+- S'il y a un autre projet qui n'est pas ou n'a aucun rapport avec le blog, ce sera également spécifié dans le nom
 
 **************
 PHP natif
