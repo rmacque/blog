@@ -16,11 +16,11 @@ Les langages/frameworks utilisés seront principalement orienté serveur.
 PHP natif
 **************
 Mon tout premier site, développé en PHP natif. C'est avec lui que j'ai appris le PHP et ce qui va avec.
-*Communication avec une base de donnée
-*routage(utilisation d'une classe récupérée sur Packagist.org)
--Système d'authentification
--Possibilité de création/modification des articles mis en ligne
--Pagination des différents articles
+- Communication avec une base de donnée
+- routage(utilisation d'une classe récupérée sur Packagist.org)
+- Système d'authentification
+- Possibilité de création/modification des articles mis en ligne
+- Pagination des différents articles
 
 **************
 Symfony
@@ -29,10 +29,10 @@ Une autre version du blog, mais développé avec le framework symfony.
 Etant donné que le framework évolue très vite, j'ai dû apprendre avec la documentation en anglais
 
 (Même fonctions que le blog)
--Communication avec une base de donnée
--routage(utilisation d'une classe récupérée sur Packagist.org)
--Système d'authentification
--Possibilité de création/modification des articles mis en ligne
--Pagination des différents articles
+- Communication avec une base de donnée
+- routage(utilisation d'une classe récupérée sur Packagist.org)
+- Système d'authentification
+- Possibilité de création/modification des articles mis en ligne
+- Pagination des différents articles
 
--Utilisation du validateur de Symfony pour les titres des articles
+- Utilisation du validateur de Symfony pour les titres des articles
