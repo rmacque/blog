@@ -29,11 +29,11 @@ Une autre version du blog, mais développé avec le framework symfony.
 Etant donné que le framework évolue très vite, j'ai dû apprendre avec la documentation en anglais
 
 (Même fonctions que le blog)
-- Communication avec une base de donnée
-- routage(utilisation d'une classe récupérée sur Packagist.org)
+- Communication avec une base de donnée (Doctrine)
+- routage
 - Système d'authentification
-- Possibilité de création/modification des articles mis en ligne
+- Possibilité de création/modification des articles mis en ligne (Twig)
 - Pagination des différents articles
 
 (Suppléments)
-- Utilisation du validateur de Symfony pour les titres des articles
+- Utilisation du validateur de Symfony pour les titres des articles (Validator)
