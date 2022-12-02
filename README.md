@@ -13,7 +13,7 @@ Les langages/frameworks utilisés seront principalement orienté serveur.
 - S'il y a un autre projet qui n'est pas ou n'a aucun rapport avec le blog, ce sera également spécifié dans le nom du dossier.
 
 ## projetBlog
-**************
+
 Mon tout premier site, développé en PHP natif. C'est avec lui que j'ai appris le PHP et ce qui va avec.
 - Communication avec une base de donnée
 - Routage(utilisation d'une classe récupérée sur Packagist.org)
@@ -22,8 +22,8 @@ Mon tout premier site, développé en PHP natif. C'est avec lui que j'ai appris 
 - Pagination des différents articles
 
 
-# Symfony
-**************
+## Symfony
+
 Une autre version du blog, mais développé avec le framework symfony.
 Etant donné que le framework évolue très vite, j'ai dû apprendre avec la documentation en anglais
 
