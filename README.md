@@ -13,7 +13,8 @@ Les langages/frameworks utilisés seront principalement orienté serveur.
 
 ## projetBlog
 
-Mon tout premier site, développé en PHP natif. C'est avec lui que j'ai appris le PHP et ce qui va avec.
+Mon tout premier site, développé de A à Z en PHP natif. C'est avec lui que j'ai appris le PHP et ce qui va avec, comme le routage, l'utilisation de composer,
+etc...
 - Communication avec une base de donnée
 - Routage(utilisation d'une classe récupérée sur Packagist.org)
 - Système d'authentification
