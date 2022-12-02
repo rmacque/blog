@@ -8,13 +8,11 @@ mais les outils utilisés pour y parvenir sont différents.
 Comme il s'agit du même site mais développé différement,
 Les langages/frameworks utilisés seront principalement orienté serveur.
 
-- Ce readme.md contiendra une liste des fonctionnalités de chaque projet
-- Le nom des différents répertoires sera toujours précédé du nom du langage/framework utilisé.
+- Ce readme.md contiendra une liste des fonctionnalités de chaque projet et/ou du langage utilisé
 - S'il y a des fonctionnalités supplémentaires sur une version, ce sera également spécifiée dans le nom du dossier.
 - S'il y a un autre projet qui n'est pas ou n'a aucun rapport avec le blog, ce sera également spécifié dans le nom du dossier.
 
-**************
-PHP natif
+#projetBlog
 **************
 Mon tout premier site, développé en PHP natif. C'est avec lui que j'ai appris le PHP et ce qui va avec.
 - Communication avec une base de donnée
@@ -23,8 +21,8 @@ Mon tout premier site, développé en PHP natif. C'est avec lui que j'ai appris 
 - Possibilité de création/modification des articles mis en ligne
 - Pagination des différents articles
 
-**************
-Symfony
+
+#Symfony
 **************
 Une autre version du blog, mais développé avec le framework symfony.
 Etant donné que le framework évolue très vite, j'ai dû apprendre avec la documentation en anglais
