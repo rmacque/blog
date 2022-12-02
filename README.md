@@ -1,5 +1,4 @@
 # blog
-blog personnel
 
 Blog créé principalement pour m'entraîner sur les différentes technologies du web.
 C'est pour cette raison qu'il peut y avoir plusieurs versions. Le résultat est presque identique visuellement, 
