@@ -1,16 +1,16 @@
 body{
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .navigation{
     background: #2d85d6;
-    padding: 20px;
+    padding: 1em;
 }
 
 .navigation > a{
-    margin:30px;
     color:white;
+    margin: 0em 1em;
 }
 
 .listing{
