@@ -1,38 +1,53 @@
-# blog
+<p align="center"><a href="https://symfony.com" target="_blank">
+    <img src="https://symfony.com/logos/symfony_black_02.svg">
+</a></p>
 
-Blog créé principalement pour m'entraîner sur les différentes technologies du web.
-C'est pour cette raison qu'il peut y avoir plusieurs versions. Le résultat est presque identique visuellement, 
-mais les outils utilisés pour y parvenir sont différents.
+The [Symfony binary][1] is a must-have tool when developing Symfony applications
+on your local machine. It provides:
 
-Comme il s'agit du même site mais développé différement,
-Les langages/frameworks utilisés seront principalement orienté serveur.
+* The best way to [create new Symfony applications][2];
+* A powerful [local web server][3] to develop your projects with support for [TLS certificates][4];
+* A tool to [check for security vulnerabilities][5];
+* Seamless integration with [Platform.sh][6].
 
-- Ce readme.md contiendra une liste des fonctionnalités de chaque projet et/ou du langage utilisé
-- S'il y a des fonctionnalités supplémentaires sur une version, ce sera également spécifiée dans le nom du dossier.
-- S'il y a un autre projet qui n'est pas ou n'a aucun rapport avec le blog, ce sera également spécifié dans le nom du dossier.
+Installation
+------------
 
-## projetBlog
+Read the installation instructions on [symfony.com][7].
 
-Mon tout premier site, développé de A à Z en PHP natif. C'est avec lui que j'ai appris le PHP et ce qui va avec, comme le routage, l'utilisation de composer,
-etc...
-- Communication avec une base de donnée
-- Routage(utilisation d'une classe récupérée sur Packagist.org)
-- Système d'authentification
-- Possibilité de création/modification des articles mis en ligne
-- Pagination des différents articles
+Signature Verification
+----------------------
 
+Symfony binaries are signed using [cosign][8], which is part of [sigstore][9].
+Signatures can be verified as follows (OS and architecture omitted for clarity):
 
-## Symfony
+```console
+$ COSIGN_EXPERIMENTAL=1 cosign verify-blob --signature symfony-cli.sig symfony-cli
+tlog entry verified with uuid: "2b7ca2bfb7ee09114a15d60761c2a0a8c97f07cc20c02e635a92ba137a08a6de" index: 1261963
+Verified OK
+```
 
-Une autre version du blog, mais développé avec le framework symfony.
-Etant donné que le framework évolue très vite, j'ai dû apprendre avec la documentation en anglais
+The above uses the (currently experimental) [keyless signing][10] method.
+Alternatively, one can verify the signature by also providing the certificate:
 
-(Même fonctions que le blog)
-- Communication avec une base de donnée (Doctrine)
-- Routage
-- Système d'authentification
-- Possibilité de création/modification des articles mis en ligne (Twig)
-- Pagination des différents articles
+```console
+$ cosign verify-blob --cert symfony-cli.pem --signature symfony-cli.sig symfony-cli
+Verified OK
+```
 
-(Suppléments)
-- Utilisation du validateur de Symfony pour les titres des articles (Validator)
+Security Issues
+---------------
+
+If you discover a security vulnerability, please follow our [disclosure procedure][11].
+
+[1]: https://symfony.com/download
+[2]: https://symfony.com/doc/current/setup.html#creating-symfony-applications
+[3]: https://symfony.com/doc/current/setup/symfony_server.html
+[4]: https://symfony.com/doc/current/setup/symfony_server.html#enabling-tls
+[5]: https://symfony.com/doc/current/setup.html#security-checker
+[6]: https://symfony.com/cloud
+[7]: https://symfony.com/download
+[8]: https://github.com/SigStore/cosign
+[9]: https://www.sigstore.dev/
+[10]: https://github.com/sigstore/cosign/blob/main/KEYLESS.md
+[11]: https://symfony.com/security
